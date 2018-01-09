@@ -106,7 +106,7 @@
 
       <!-- Site footer -->
       <footer class="footer">
-        <p>&copy; 2018 Danny Padilla</p>
+        <p id="year">&copy; </p>
       </footer>
 
     </div> <!-- /container -->
@@ -115,6 +115,12 @@
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Updates year automatically -->
+    <script> 
+      var date = new Date();
+      var full_name = "Danny Padilla "
+      document.getElementById("year").innerHTML = "&copy; " + full_name + date.getFullYear();
+    </script>
 
   </body>
 </html>
