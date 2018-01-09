@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
     <meta name="description" content="profile website with software and website projects">
     <meta name="author" content="Danny Padilla">
     <link rel="icon" href="img/favicon.ico">
@@ -31,31 +32,39 @@
     <div class="container">
       <!-- The justified navigation menu is meant for single line per list item.
            Multiple lines will require custom code not provided by Bootstrap. -->
+      
       <div class="masthead">
-
-        <h3 class="text-muted">Software Engineer i think</h3>
-
+	
+        <h3 class="text-muted">Student - Software Engineer</h3>
+	
         <nav>
           <ul class="nav nav-tabs nav-justified">
-            <li class="active"><a href="#">About</a></li>
-	    <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+	    <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="files/resume/DannyPadilla_resume.pdf">Resume</a></li>
           </ul>
         </nav>
-
+	
       </div>
 
       <!-- Jumbotron -->
-      <div class="jumbotron">
+      <div id="about" class="jumbotron">
         <h1>Danny Padilla</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+        <p class="lead">Full-Time Senior Undergraduate Computer Science Student at <em>California State University, Los Angeles</em></p>
         <hr class="my-4">
-        <p>What is this</p>
+        <p class="text-justify"><strong>Languages</strong></p>
+	<p>[ Java - Python - JavaScipt - HTML5/CSS ]</p>
+	<p class="text-justify"><strong>Libraries</strong></p>
+	<p>[ OpenCV - Numpy - scikit-learn - Pandas ]</p>
+	<p class="text-justify"><strong>Server/Database</strong></p>
+	<p>[ Servlets - NodeJS ] ^ [ MySQL - MongoDB ]</p>
+	<p class="text-justify"><strong>Course Electives</strong></p>
+	<p><small>[ Artificial_Intelligence - Data_Science - Modeling_and_Simulation - Concurrent_and_Distributed_Programming - Cryptography ]</small></p>
       </div>
 
       <!-- Example row of columns -->
-      <div class="row">
+      <div id="projects" class="row">
 
         <div class="col-lg-4">
           <h2>Project 1</h2>
@@ -65,10 +74,10 @@
         </div>
 
         <div class="col-lg-4">
-          <h2>Project 2</h2>
-          <p class="text-primary">This is some text so that you can read it out loud for someone to hear.</p>
+          <h2>RoboSub 2018</h2>
+          <p class="text-primary">Senior Design 2018 Project</p>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-primary" href="https://csns.calstatela.edu/department/cs/project/view?id=6059788" role="button">View details &raquo;</a></p>
        </div>
 
         <div class="col-lg-4">
@@ -97,7 +106,7 @@
 
       <!-- Site footer -->
       <footer class="footer">
-        <p>&copy; 2017 Danny Padilla</p>
+        <p>&copy; 2018 Danny Padilla</p>
       </footer>
 
     </div> <!-- /container -->
