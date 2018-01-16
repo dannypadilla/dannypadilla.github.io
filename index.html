@@ -1,126 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    
-    <meta name="description" content="profile website with software and website projects">
-    <meta name="author" content="Danny Padilla">
-    <link rel="icon" href="img/favicon.ico">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Danny Padilla</title>
+  <meta name="description" content="profile website with software and website projects">
+  <meta name="author" content="Danny Padilla">
+  <link rel="icon" href="img/favicon.ico">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <title>Danny Padilla</title>
 
-    <!-- Custom styles for this template :) -->
-    <link href="css/justified-nav.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-  </head>
+  <!-- Custom styles for this template :) -->
+  <link href="css/justified-nav.css" rel="stylesheet">
 
-  <body>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
-    <div class="container">
-      <!-- The justified navigation menu is meant for single line per list item.
-           Multiple lines will require custom code not provided by Bootstrap. -->
-      
-      <div class="masthead">
-	
-        <h3 class="text-muted">Student - Software Engineer</h3>
-	
-        <nav>
-          <ul class="nav nav-tabs nav-justified">
-            <li><a href="#about">About</a></li>
-	    <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="files/resume/DannyPadilla_resume.pdf">Resume</a></li>
+</head>
+<!-- Navigation -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Danny Padilla</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#about">About<span class="sr-only">(current)</span></a></li>
+        <li><a href="#projects">Projects</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Connect<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Social</li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
           </ul>
-        </nav>
-	
+        </li>
+
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+
+  </div><!-- /.container-fluid -->
+</nav>
+
+<body>
+  <div class="container">
+    <div id="about" class="jumbotron">
+      <p class="lead">Full-Time Senior Undergraduate Computer Science Student at <em>California State University, Los Angeles</em></p>
+      <hr class="my-4">
+      <p class="text-justify"><strong>Languages</strong></p>
+      <p>[ Java - Python - JavaScipt - HTML5/CSS ]</p>
+      <p class="text-justify"><strong>Libraries</strong></p>
+      <p>[ OpenCV - Numpy - scikit-learn - Pandas ]</p>
+      <p class="text-justify"><strong>Server/Database</strong></p>
+      <p>[ Servlets - NodeJS ] ^ [ MySQL - MongoDB ]</p>
+      <p class="text-justify"><strong>Course Electives</strong></p>
+      <p><small>[ Artificial Intelligence - Data Science - Modeling and Simulation - Concurrent and Distributed Programming - Cryptography ]</small></p>
+      <hr class="my-4">
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="projects" class="row">
+      <div class="col-lg-4">
+        <h2>Project 1</h2>
+        <p class="text-danger">This is some text so that you can read it out loud for someone to hear.</p>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
       </div>
 
-      <!-- Jumbotron -->
-      <div id="about" class="jumbotron">
-        <h1>Danny Padilla</h1>
-        <p class="lead">Full-Time Senior Undergraduate Computer Science Student at <em>California State University, Los Angeles</em></p>
-        <hr class="my-4">
-        <p class="text-justify"><strong>Languages</strong></p>
-	<p>[ Java - Python - JavaScipt - HTML5/CSS ]</p>
-	<p class="text-justify"><strong>Libraries</strong></p>
-	<p>[ OpenCV - Numpy - scikit-learn - Pandas ]</p>
-	<p class="text-justify"><strong>Server/Database</strong></p>
-	<p>[ Servlets - NodeJS ] ^ [ MySQL - MongoDB ]</p>
-	<p class="text-justify"><strong>Course Electives</strong></p>
-	<p><small>[ Artificial_Intelligence - Data_Science - Modeling_and_Simulation - Concurrent_and_Distributed_Programming - Cryptography ]</small></p>
+      <div class="col-lg-4">
+        <h2>RoboSub 2018</h2>
+        <p class="text-primary">Senior Design 2018 Project</p>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-primary" href="https://csns.calstatela.edu/department/cs/project/view?id=6059788" role="button">View details &raquo;</a></p>
       </div>
 
-      <!-- Example row of columns -->
-      <div id="projects" class="row">
-
-        <div class="col-lg-4">
-          <h2>Project 1</h2>
-          <p class="text-danger">This is some text so that you can read it out loud for someone to hear.</p>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+      <div class="col-lg-4">
+        <h2>Gate Detection</h2>
+        <p class="text-success">This is some text so that you can read it out loud for someone to hear.</p>
+        <div class="col-xs-6 col-md-6">
+          <a href="#" class="thumbnail">
+            <img src="img/front08.jpg" alt="...">
+          </a>
         </div>
-
-        <div class="col-lg-4">
-          <h2>RoboSub 2018</h2>
-          <p class="text-primary">Senior Design 2018 Project</p>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-primary" href="https://csns.calstatela.edu/department/cs/project/view?id=6059788" role="button">View details &raquo;</a></p>
-       </div>
-
-        <div class="col-lg-4">
-          <h2>Gate Detection</h2>
-          <p class="text-success">This is some text so that you can read it out loud for someone to hear.</p>
-          <div class="col-xs-6 col-md-6">
-            <a href="#" class="thumbnail">
-              <img src="img/front08.jpg" alt="...">
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-6">
-            <a href="#" class="thumbnail">
-              <img src="img/front11.jpg" alt="...">
-            </a>
-          </div>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-          <div class="col-xs-6 col-md-6">
-            <p><a class="btn btn-primary" href="#" role="button">View Demo &raquo;</a></p>
-          </div>
-          <div class="col-xs-6 col-md-6">
-            <p><a class="btn btn-primary" href="#" role="button">View Source &raquo;</a></p>
-          </div>
+        <div class="col-xs-6 col-md-6">
+          <a href="#" class="thumbnail">
+            <img src="img/front11.jpg" alt="...">
+          </a>
         </div>
-
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+        <div class="col-xs-6 col-md-6">
+          <p><a class="btn btn-primary" href="#" role="button">View Demo &raquo;</a></p>
+        </div>
+        <div class="col-xs-6 col-md-6">
+          <p><a class="btn btn-primary" href="#" role="button">View Source &raquo;</a></p>
+        </div>
       </div>
+    </div>
 
-      <!-- Site footer -->
-      <footer class="footer">
-        <p id="year">&copy; </p>
-      </footer>
+  </div>
 
-    </div> <!-- /container -->
+  <footer class="footer">
+    <div class="container">
+      <p id="year">&copy; </p>
+    </div>
+  </footer>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Updates year automatically -->
-    <script> 
-      var date = new Date();
-      var full_name = "Danny Padilla "
-      document.getElementById("year").innerHTML = "&copy; " + full_name + date.getFullYear();
-    </script>
 
-  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Updates year automatically -->
+  <script>
+  var date = new Date();
+  var full_name = "Danny Padilla "
+  document.getElementById("year").innerHTML = "&copy; " + full_name + date.getFullYear();
+  </script>
+
+</body>
 </html>
+
+<!--
+
+<ul class="nav navbar-nav navbar-right">
+          <li><a href="https://www.github.com/dannypadilla" target="_blank" title="Github"><img src="img/github_i.png" alt="github" class="img-responsive"></a></li>
+          <li><a href="https://www.linkedin.com/in/dannycpadilla" target="_blank" title="LinkedIn"><img src="img/linkedin_i.png" alt="linkedin" class="img-responsive"></a></li>
+          <li><a href="#" target="_blank" title="Twitter"><img src="img/twitter_i.png" alt="twitter" class="img-responsive"></a></li>
+          <li><a href="#" target="_blank" title="Email"><img src="img/email_i.png" alt="email" class="img-responsive"></a></li>
+        </ul>
+
+-->
