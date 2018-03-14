@@ -63,7 +63,7 @@
           </ul>
         </li>
 
-        <li><a href="#resume">Resume</a></li>
+        <li><a href="files/resume/DannyCPadilla_resume.pdf">Resume</a></li>
       </ul>
 
     </div><!-- /.navbar-collapse -->
@@ -101,23 +101,35 @@
         <h2>RoboSub 2018</h2>
         <p class="text-primary">Senior Design 2018 Project</p>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-primary" href="https://csns.calstatela.edu/department/cs/project/view?id=6059788" role="button">View details &raquo;</a></p>
+        <div class="col-xs-6 col-md-6">
+          <p><a class="btn btn-primary" href="https://csns.calstatela.edu/department/cs/project/view?id=6059788" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-xs-6 col-md-6">
+          <p><a class="btn btn-primary" href="https://github.com/CSULA-RoboSub/Robosub" role="button">View Source &raquo;</a></p>
+        </div>
       </div>
 
       <div class="col-lg-4">
-        <h2>Gate Detection</h2>
-        <p class="text-success">This is some text so that you can read it out loud for someone to hear.</p>
+        <h2>Supervised Gate Detection</h2>
+        <p class="text-success">Supervised object dection combining preprocessing techniques and machine learning</p>
         <div class="col-xs-6 col-md-6">
           <a href="#" class="thumbnail">
-            <img src="img/front08.jpg" alt="...">
+            <img src="img/gate.jpg" alt="...">
           </a>
         </div>
         <div class="col-xs-6 col-md-6">
           <a href="#" class="thumbnail">
-            <img src="img/front11.jpg" alt="...">
+            <img src="img/gate-detection.png" alt="...">
           </a>
         </div>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+        <p>
+          OpenCV provided preprocessing techniques such as color filtering, thresholding, and contours detection.
+          Results provided regions of interest (ROI) to minimize computation.
+          Features were then extracted using the Histogram of Oriented Gradients(HOG).
+          Training data was provided by the customer (Robsub).
+          Scikit-learn provided the machine learning library.
+          Support Vector Machines(SVM) was used to classify whether the ROI was a gate/bar.
+        </p>
         <div class="col-xs-6 col-md-6">
           <p><a class="btn btn-primary" href="#" role="button">View Demo &raquo;</a></p>
         </div>
