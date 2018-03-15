@@ -63,7 +63,7 @@
           </ul>
         </li>
 
-        <li><a href="files/resume/DannyCPadilla_resume.pdf">Resume</a></li>
+        <li><a href="files/resume/DannyCPadilla_resume.pdf" target="_blank">Resume</a></li>
       </ul>
 
     </div><!-- /.navbar-collapse -->
@@ -74,7 +74,7 @@
 <body>
   <div class="container">
     <div id="about" class="jumbotron">
-      <p class="lead">Full-Time Senior Undergraduate Computer Science Student at <em>California State University, Los Angeles</em></p>
+      <p class="lead">Graduating Undergraduate Computer Science Student at <em>California State University, Los Angeles</em></p>
       <hr class="my-4">
       <p class="text-justify"><strong>Languages</strong></p>
       <p>[ Java - Python - JavaScipt - HTML5/CSS ]</p>
@@ -83,7 +83,7 @@
       <p class="text-justify"><strong>Server/Database</strong></p>
       <p>[ Servlets - NodeJS ] ^ [ MySQL - MongoDB ]</p>
       <p class="text-justify"><strong>Course Electives</strong></p>
-      <p><small>[ Artificial Intelligence - Data Science - Modeling and Simulation - Concurrent and Distributed Programming - Cryptography ]</small></p>
+      <p><small>[ Artificial Intelligence - Data Science - Robotics - Concurrent and Distributed Programming - Cryptography ]</small></p>
       <hr class="my-4">
     </div>
   </div>
@@ -91,7 +91,7 @@
   <div class="container">
     <div id="projects" class="row">
       <div class="col-lg-4">
-        <h2>Project 1</h2>
+        <h2>Template</h2>
         <p class="text-danger">This is some text so that you can read it out loud for someone to hear.</p>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
@@ -99,29 +99,37 @@
 
       <div class="col-lg-4">
         <h2>RoboSub 2018</h2>
-        <p class="text-primary">Senior Design 2018 Project</p>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p class="text-primary">Senior Design 2018 Project (CSULA)</p>
+        <p>
+          As team of computer science students we were tasked to develop requirements and build the software to run an autonomous underwater vehicle (AUV).
+          The software comprised of a robot operating system (ROS) and object detection.
+          Communication between hardware and software was accomplished with ROS.
+          While navigation with decision making was accomplished through object detection.
+          Which included image processing and machine learning.
+        </p>
         <div class="col-xs-6 col-md-6">
-          <p><a class="btn btn-primary" href="https://csns.calstatela.edu/department/cs/project/view?id=6059788" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-primary" href="https://csns.calstatela.edu/department/cs/project/view?id=6059788" target="_blank" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-xs-6 col-md-6">
-          <p><a class="btn btn-primary" href="https://github.com/CSULA-RoboSub/Robosub" role="button">View Source &raquo;</a></p>
+          <p><a class="btn btn-primary" href="https://github.com/CSULA-RoboSub/Robosub" target="_blank" role="button">View Source &raquo;</a></p>
         </div>
       </div>
 
       <div class="col-lg-4">
-        <h2>Supervised Gate Detection</h2>
-        <p class="text-success">Supervised object dection combining preprocessing techniques and machine learning</p>
+        <h2>Gate Detection</h2>
+        <p class="text-success">Object dection combining preprocessing techniques and machine learning</p>
         <div class="col-xs-6 col-md-6">
-          <a href="#" class="thumbnail">
-            <img src="img/gate.jpg" alt="...">
+          <a href="img/gate.jpg" target="_blank" class="thumbnail">
+            <img src="img/gate.jpg" alt="gate-with-no-detection-markings">
           </a>
         </div>
         <div class="col-xs-6 col-md-6">
-          <a href="#" class="thumbnail">
-            <img src="img/gate-detection.png" alt="...">
+          <a href="img/gate-detection.png" target="_blank" class="thumbnail">
+            <img src="img/gate-detection.png" alt="gate-with-detection-boxes">
           </a>
         </div>
+
+        <div class="col-xs-12 col-md-12">
         <p>
           OpenCV provided preprocessing techniques such as color filtering, thresholding, and contours detection.
           Results provided regions of interest (ROI) to minimize computation.
@@ -130,6 +138,8 @@
           Scikit-learn provided the machine learning library.
           Support Vector Machines(SVM) was used to classify whether the ROI was a gate/bar.
         </p>
+        </div>
+
         <div class="col-xs-6 col-md-6">
           <p><a class="btn btn-primary" href="#" role="button">View Demo &raquo;</a></p>
         </div>
