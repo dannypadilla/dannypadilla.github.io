@@ -129,8 +129,8 @@
       </div>
 
       <div class="col-lg-4 col-md-12 col-xs-12">
-        <h2>Gate Detection</h2>
-        <p><a class="text-success">Computer Vision and Machine Learning</a></p>
+        <h2>Image Cropping Tool</h2>
+        <p><a class="text-success">OpenCV, GUI, and Numpy</a></p>
 
         <div id="images" class="col-lg-12">
           <div class="col-xs-6 col-md-6">
@@ -147,12 +147,12 @@
 
         <div class="col-md-12 col-xs-12">
           <p>
-          OpenCV provided preprocessing techniques such as color filtering, thresholding, and contours detection.
-          Results provided regions of interest (ROI) to minimize computation.
-          Features were then extracted using the Histogram of Oriented Gradients(HOG).
-          Training data was provided by the customer (Robsub).
-          Scikit-learn provided the machine learning library.
-          Support Vector Machines(SVM) was used to classify whether the ROI was a gate/bar.
+          This tool was created to simplify preparing image training data.
+          The user can view a set of images and create a bounding box around a region of interest (ROI).
+          The ROI is then stored to disk as a jpg.
+          A txt file is also created.
+          The txt file contains the label and the coordinates (x, y, w, h) of the ROI.
+          If multiple ROI's exist in one image, the label and coordinates are appended to the end of the txt file.
           </p>
         </div>
 
@@ -160,7 +160,7 @@
           <p><a class="btn btn-primary" href="#" role="button">View Demo &raquo;</a></p>
         </div>
         <div class="col-xs-6 col-md-6">
-          <p><a class="btn btn-primary" href="#" role="button">View Source &raquo;</a></p>
+          <p><a class="btn btn-primary" href="https://github.com/dannypadilla/image-cropper-gui" role="button">View Source &raquo;</a></p>
         </div>
       </div>
 
@@ -230,5 +230,15 @@
           <li><a href="#" target="_blank" title="Twitter"><img src="img/twitter_i.png" alt="twitter" class="img-responsive"></a></li>
           <li><a href="#" target="_blank" title="Email"><img src="img/email_i.png" alt="email" class="img-responsive"></a></li>
         </ul>
+
+
+        <p>
+        OpenCV provided preprocessing techniques such as color filtering, thresholding, and contours detection.
+        Results provided regions of interest (ROI) to minimize computation.
+        Features were then extracted using the Histogram of Oriented Gradients(HOG).
+        Training data was provided by the customer (Robsub).
+        Scikit-learn provided the machine learning library.
+        Support Vector Machines(SVM) was used to classify whether the ROI was a gate/bar.
+        </p>
 
 -->
